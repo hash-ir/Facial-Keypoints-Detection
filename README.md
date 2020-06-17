@@ -32,3 +32,9 @@ C:\Users\<username>\Anaconda3\envs\<envname>\Lib\site-packages\cv2\data\haarcasc
 A real-time demo of me testing it out is [here](https://drive.google.com/open?id=1gb2E10oJCGY6gujHmmworcl8Pqvfor2k)
 
 I have used a fairly simple model and a small dataset (around 1500 samples). Next steps are to incorporate a bigger model and use a bigger dataset and/or data augmentation
+
+## Author(s)
+* **Hashir Ahmad** - *full project* - [GitHub](https://github.com/hash-ir)
+
+## License
+This work is licensed under the [MIT License](https://github.com/hash-ir/Facial-Keypoints-Detection/blob/master/LICENSE).
