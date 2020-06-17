@@ -5,7 +5,7 @@ A real-time implementation of facial keypoints detection made with `PyTorch` and
 ## Quick Start
 ### Install
 1. Clone the repository
-```
+```bash
 git clone https://github.com/hash-ir/Facial-Keypoints-Detection.git
 cd Facial-Keypoints-Detection
 ```
@@ -15,14 +15,17 @@ cd Facial-Keypoints-Detection
 * [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
 
 An alternate is to make a conda environment from the `environment.yaml` file included in the repository:
-```
+```bash
 conda env create -f environment.yaml
 ```
 3. Once the dependencies are installed, replace the path of `haarcascade_frontalface_default.xml` with your path:
-```
+```bash
 /home/<username>/anaconda3/lib/python3.x/site-packages/cv2/data/haarcascade_frontalface_default.xml # linux
+```
+```bash
 C:\Users\<username>\Anaconda3\envs\<envname>\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml # windows
 ```
+
 
 ### Usage
 1. For training, download the dataset from [here](https://www.kaggle.com/c/facial-keypoints-detection/data), extract and put `training.csv` and `test.csv` in the root directory.
